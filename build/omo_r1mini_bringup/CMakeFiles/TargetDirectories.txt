@@ -1,0 +1,9 @@
+/home/atoz/ros2_ws/build/omo_r1mini_bringup/CMakeFiles/uninstall.dir
+/home/atoz/ros2_ws/build/omo_r1mini_bringup/CMakeFiles/omo_r1mini_bringup_uninstall.dir
+/home/atoz/ros2_ws/build/omo_r1mini_bringup/CMakeFiles/test.dir
+/home/atoz/ros2_ws/build/omo_r1mini_bringup/CMakeFiles/edit_cache.dir
+/home/atoz/ros2_ws/build/omo_r1mini_bringup/CMakeFiles/rebuild_cache.dir
+/home/atoz/ros2_ws/build/omo_r1mini_bringup/CMakeFiles/list_install_components.dir
+/home/atoz/ros2_ws/build/omo_r1mini_bringup/CMakeFiles/install.dir
+/home/atoz/ros2_ws/build/omo_r1mini_bringup/CMakeFiles/install/local.dir
+/home/atoz/ros2_ws/build/omo_r1mini_bringup/CMakeFiles/install/strip.dir

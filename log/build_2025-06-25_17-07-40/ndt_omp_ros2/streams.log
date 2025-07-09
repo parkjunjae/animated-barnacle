@@ -1,0 +1,34 @@
+[0.223s] Invoking command in '/home/atoz/ros2_ws/build/ndt_omp_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atoz/ros2_ws/install/my_robot_sim:/opt/ros/humble /usr/bin/cmake --build /home/atoz/ros2_ws/build/ndt_omp_ros2 -- -j12 -l12
+[0.284s] [ 66%] Built target ndt_omp
+[0.318s] [100%] Built target align
+[0.328s] Invoked command in '/home/atoz/ros2_ws/build/ndt_omp_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atoz/ros2_ws/install/my_robot_sim:/opt/ros/humble /usr/bin/cmake --build /home/atoz/ros2_ws/build/ndt_omp_ros2 -- -j12 -l12
+[0.330s] Invoking command in '/home/atoz/ros2_ws/build/ndt_omp_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atoz/ros2_ws/install/my_robot_sim:/opt/ros/humble /usr/bin/cmake --install /home/atoz/ros2_ws/build/ndt_omp_ros2
+[0.336s] -- Install configuration: "RELEASE"
+[0.336s] -- Up-to-date: /home/atoz/ros2_ws/install/ndt_omp_ros2/lib/ndt_omp_ros2/align
+[0.336s] -- Up-to-date: /home/atoz/ros2_ws/install/ndt_omp_ros2/bin/align
+[0.336s] -- Up-to-date: /home/atoz/ros2_ws/install/ndt_omp_ros2/include
+[0.336s] -- Up-to-date: /home/atoz/ros2_ws/install/ndt_omp_ros2/include/pclomp
+[0.336s] -- Up-to-date: /home/atoz/ros2_ws/install/ndt_omp_ros2/include/pclomp/ndt_omp.h
+[0.336s] -- Up-to-date: /home/atoz/ros2_ws/install/ndt_omp_ros2/include/pclomp/ndt_omp_impl.hpp
+[0.336s] -- Up-to-date: /home/atoz/ros2_ws/install/ndt_omp_ros2/include/pclomp/gicp_omp.h
+[0.336s] -- Up-to-date: /home/atoz/ros2_ws/install/ndt_omp_ros2/include/pclomp/voxel_grid_covariance_omp_impl.hpp
+[0.336s] -- Up-to-date: /home/atoz/ros2_ws/install/ndt_omp_ros2/include/pclomp/voxel_grid_covariance_omp.h
+[0.337s] -- Up-to-date: /home/atoz/ros2_ws/install/ndt_omp_ros2/include/pclomp/gicp_omp_impl.hpp
+[0.337s] -- Up-to-date: /home/atoz/ros2_ws/install/ndt_omp_ros2/share/ament_index/resource_index/package_run_dependencies/ndt_omp_ros2
+[0.337s] -- Up-to-date: /home/atoz/ros2_ws/install/ndt_omp_ros2/share/ament_index/resource_index/parent_prefix_path/ndt_omp_ros2
+[0.337s] -- Up-to-date: /home/atoz/ros2_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/environment/ament_prefix_path.sh
+[0.337s] -- Up-to-date: /home/atoz/ros2_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/environment/ament_prefix_path.dsv
+[0.337s] -- Up-to-date: /home/atoz/ros2_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/environment/path.sh
+[0.337s] -- Up-to-date: /home/atoz/ros2_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/environment/path.dsv
+[0.337s] -- Up-to-date: /home/atoz/ros2_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/local_setup.bash
+[0.337s] -- Up-to-date: /home/atoz/ros2_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/local_setup.sh
+[0.337s] -- Up-to-date: /home/atoz/ros2_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/local_setup.zsh
+[0.337s] -- Up-to-date: /home/atoz/ros2_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/local_setup.dsv
+[0.337s] -- Installing: /home/atoz/ros2_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/package.dsv
+[0.337s] -- Up-to-date: /home/atoz/ros2_ws/install/ndt_omp_ros2/share/ament_index/resource_index/packages/ndt_omp_ros2
+[0.337s] -- Up-to-date: /home/atoz/ros2_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.337s] -- Up-to-date: /home/atoz/ros2_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.337s] -- Up-to-date: /home/atoz/ros2_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/cmake/ndt_omp_ros2Config.cmake
+[0.337s] -- Up-to-date: /home/atoz/ros2_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/cmake/ndt_omp_ros2Config-version.cmake
+[0.337s] -- Up-to-date: /home/atoz/ros2_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/package.xml
+[0.339s] Invoked command in '/home/atoz/ros2_ws/build/ndt_omp_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atoz/ros2_ws/install/my_robot_sim:/opt/ros/humble /usr/bin/cmake --install /home/atoz/ros2_ws/build/ndt_omp_ros2

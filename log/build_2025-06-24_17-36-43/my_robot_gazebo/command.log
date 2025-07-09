@@ -1,0 +1,4 @@
+Invoking command in '/home/atoz/ros2_ws/build/my_robot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atoz/ros2_ws/install/my_robot_sim:/opt/ros/humble /usr/bin/cmake --build /home/atoz/ros2_ws/build/my_robot_gazebo -- -j12 -l12
+Invoked command in '/home/atoz/ros2_ws/build/my_robot_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atoz/ros2_ws/install/my_robot_sim:/opt/ros/humble /usr/bin/cmake --build /home/atoz/ros2_ws/build/my_robot_gazebo -- -j12 -l12
+Invoking command in '/home/atoz/ros2_ws/build/my_robot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atoz/ros2_ws/install/my_robot_sim:/opt/ros/humble /usr/bin/cmake --install /home/atoz/ros2_ws/build/my_robot_gazebo
+Invoked command in '/home/atoz/ros2_ws/build/my_robot_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atoz/ros2_ws/install/my_robot_sim:/opt/ros/humble /usr/bin/cmake --install /home/atoz/ros2_ws/build/my_robot_gazebo

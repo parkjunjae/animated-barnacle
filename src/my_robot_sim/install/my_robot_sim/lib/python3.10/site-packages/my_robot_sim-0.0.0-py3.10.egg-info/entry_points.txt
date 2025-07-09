@@ -1,0 +1,3 @@
+[console_scripts]
+pointcloud_to_scan = my_robot_sim.pointcloud_to_scan:main
+

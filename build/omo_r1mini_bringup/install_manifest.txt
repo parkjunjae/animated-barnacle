@@ -1,0 +1,15 @@
+/home/atoz/ros2_ws/install/omo_r1mini_bringup/share/ament_index/resource_index/package_run_dependencies/omo_r1mini_bringup
+/home/atoz/ros2_ws/install/omo_r1mini_bringup/share/ament_index/resource_index/parent_prefix_path/omo_r1mini_bringup
+/home/atoz/ros2_ws/install/omo_r1mini_bringup/share/omo_r1mini_bringup/environment/ament_prefix_path.sh
+/home/atoz/ros2_ws/install/omo_r1mini_bringup/share/omo_r1mini_bringup/environment/ament_prefix_path.dsv
+/home/atoz/ros2_ws/install/omo_r1mini_bringup/share/omo_r1mini_bringup/environment/path.sh
+/home/atoz/ros2_ws/install/omo_r1mini_bringup/share/omo_r1mini_bringup/environment/path.dsv
+/home/atoz/ros2_ws/install/omo_r1mini_bringup/share/omo_r1mini_bringup/local_setup.bash
+/home/atoz/ros2_ws/install/omo_r1mini_bringup/share/omo_r1mini_bringup/local_setup.sh
+/home/atoz/ros2_ws/install/omo_r1mini_bringup/share/omo_r1mini_bringup/local_setup.zsh
+/home/atoz/ros2_ws/install/omo_r1mini_bringup/share/omo_r1mini_bringup/local_setup.dsv
+/home/atoz/ros2_ws/install/omo_r1mini_bringup/share/omo_r1mini_bringup/package.dsv
+/home/atoz/ros2_ws/install/omo_r1mini_bringup/share/ament_index/resource_index/packages/omo_r1mini_bringup
+/home/atoz/ros2_ws/install/omo_r1mini_bringup/share/omo_r1mini_bringup/cmake/omo_r1mini_bringupConfig.cmake
+/home/atoz/ros2_ws/install/omo_r1mini_bringup/share/omo_r1mini_bringup/cmake/omo_r1mini_bringupConfig-version.cmake
+/home/atoz/ros2_ws/install/omo_r1mini_bringup/share/omo_r1mini_bringup/package.xml

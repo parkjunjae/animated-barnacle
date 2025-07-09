@@ -1,0 +1,666 @@
+[0.000000] (-) TimerEvent: {}
+[0.000557] (my_robot_gazebo) JobQueued: {'identifier': 'my_robot_gazebo', 'dependencies': OrderedDict()}
+[0.000653] (my_robot_sim) JobQueued: {'identifier': 'my_robot_sim', 'dependencies': OrderedDict()}
+[0.000684] (ndt_omp_ros2) JobQueued: {'identifier': 'ndt_omp_ros2', 'dependencies': OrderedDict()}
+[0.000709] (omo_r1mini_bringup) JobQueued: {'identifier': 'omo_r1mini_bringup', 'dependencies': OrderedDict()}
+[0.000734] (my_robot_gazebo) JobStarted: {'identifier': 'my_robot_gazebo'}
+[0.004799] (my_robot_sim) JobStarted: {'identifier': 'my_robot_sim'}
+[0.008140] (ndt_omp_ros2) JobStarted: {'identifier': 'ndt_omp_ros2'}
+[0.010309] (omo_r1mini_bringup) JobStarted: {'identifier': 'omo_r1mini_bringup'}
+[0.013528] (my_robot_gazebo) JobProgress: {'identifier': 'my_robot_gazebo', 'progress': 'cmake'}
+[0.013940] (my_robot_gazebo) Command: {'cmd': ['/usr/bin/cmake', '/home/atoz/ros2_ws/src/my_robot_gazebo', '-DCMAKE_INSTALL_PREFIX=/home/atoz/ros2_ws/install/my_robot_gazebo'], 'cwd': '/home/atoz/ros2_ws/build/my_robot_gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'atoz'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/atoz'), ('OLDPWD', '/home/atoz'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '1720'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/atoz/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx5'), ('LOGNAME', 'atoz'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'atoz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/atoz/ros2_ws/install/ndt_omp_ros2/bin:/opt/ros/humble/bin:/home/atoz/.local/bin:/home/atoz/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/atoz/programs/idea-IC-2025.1/bin:/home/atoz/Desktop/idea-IC-251.25410.129/bin'), ('SESSION_MANAGER', 'local/atoz-IdeaPad-Slim-3-15IRH8:@/tmp/.ICE-unix/1692,unix/atoz-IdeaPad-Slim-3-15IRH8:/tmp/.ICE-unix/1692'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b3e94e90_1e41_48c8_a08a_f9c76c54d6d7'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=fcitx5'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.278'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/atoz/ros2_ws/install/omo_r1mini_bringup:/home/atoz/ros2_ws/install/ndt_omp_ros2:/home/atoz/ros2_ws/install/my_robot_sim:/home/atoz/ros2_ws/install/my_robot_gazebo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'fcitx5'), ('PWD', '/home/atoz/ros2_ws/build/my_robot_gazebo'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/atoz/ros2_ws/install/omo_r1mini_bringup:/home/atoz/ros2_ws/install/ndt_omp_ros2:/home/atoz/ros2_ws/install/my_robot_sim:/home/atoz/ros2_ws/install/my_robot_gazebo::/usr/local:/opt/ros/humble')]), 'shell': False}
+[0.099777] (-) TimerEvent: {}
+[0.185297] (ndt_omp_ros2) JobProgress: {'identifier': 'ndt_omp_ros2', 'progress': 'cmake'}
+[0.185948] (ndt_omp_ros2) Command: {'cmd': ['/usr/bin/cmake', '/home/atoz/ros2_ws/src/ndt_omp_ros2', '-DCMAKE_INSTALL_PREFIX=/home/atoz/ros2_ws/install/ndt_omp_ros2'], 'cwd': '/home/atoz/ros2_ws/build/ndt_omp_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'atoz'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/atoz'), ('OLDPWD', '/home/atoz'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '1720'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/atoz/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx5'), ('LOGNAME', 'atoz'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'atoz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/atoz/ros2_ws/install/ndt_omp_ros2/bin:/opt/ros/humble/bin:/home/atoz/.local/bin:/home/atoz/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/atoz/programs/idea-IC-2025.1/bin:/home/atoz/Desktop/idea-IC-251.25410.129/bin'), ('SESSION_MANAGER', 'local/atoz-IdeaPad-Slim-3-15IRH8:@/tmp/.ICE-unix/1692,unix/atoz-IdeaPad-Slim-3-15IRH8:/tmp/.ICE-unix/1692'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b3e94e90_1e41_48c8_a08a_f9c76c54d6d7'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=fcitx5'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.278'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/atoz/ros2_ws/install/omo_r1mini_bringup:/home/atoz/ros2_ws/install/ndt_omp_ros2:/home/atoz/ros2_ws/install/my_robot_sim:/home/atoz/ros2_ws/install/my_robot_gazebo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'fcitx5'), ('PWD', '/home/atoz/ros2_ws/build/ndt_omp_ros2'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/atoz/ros2_ws/install/omo_r1mini_bringup:/home/atoz/ros2_ws/install/ndt_omp_ros2:/home/atoz/ros2_ws/install/my_robot_sim:/home/atoz/ros2_ws/install/my_robot_gazebo::/usr/local:/opt/ros/humble')]), 'shell': False}
+[0.187675] (my_robot_gazebo) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.187877] (my_robot_gazebo) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.187917] (my_robot_gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.187952] (my_robot_gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.187984] (my_robot_gazebo) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.188016] (my_robot_gazebo) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.188047] (my_robot_gazebo) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.188079] (my_robot_gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.188650] (omo_r1mini_bringup) JobProgress: {'identifier': 'omo_r1mini_bringup', 'progress': 'cmake'}
+[0.188941] (omo_r1mini_bringup) Command: {'cmd': ['/usr/bin/cmake', '/home/atoz/ros2_ws/src/omo_r1mini_bringup', '-DCMAKE_INSTALL_PREFIX=/home/atoz/ros2_ws/install/omo_r1mini_bringup'], 'cwd': '/home/atoz/ros2_ws/build/omo_r1mini_bringup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'atoz'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/atoz'), ('OLDPWD', '/home/atoz'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '1720'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/atoz/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx5'), ('LOGNAME', 'atoz'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'atoz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/atoz/ros2_ws/install/ndt_omp_ros2/bin:/opt/ros/humble/bin:/home/atoz/.local/bin:/home/atoz/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/atoz/programs/idea-IC-2025.1/bin:/home/atoz/Desktop/idea-IC-251.25410.129/bin'), ('SESSION_MANAGER', 'local/atoz-IdeaPad-Slim-3-15IRH8:@/tmp/.ICE-unix/1692,unix/atoz-IdeaPad-Slim-3-15IRH8:/tmp/.ICE-unix/1692'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b3e94e90_1e41_48c8_a08a_f9c76c54d6d7'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=fcitx5'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.278'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/atoz/ros2_ws/install/omo_r1mini_bringup:/home/atoz/ros2_ws/install/ndt_omp_ros2:/home/atoz/ros2_ws/install/my_robot_sim:/home/atoz/ros2_ws/install/my_robot_gazebo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'fcitx5'), ('PWD', '/home/atoz/ros2_ws/build/omo_r1mini_bringup'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/atoz/ros2_ws/install/omo_r1mini_bringup:/home/atoz/ros2_ws/install/ndt_omp_ros2:/home/atoz/ros2_ws/install/my_robot_sim:/home/atoz/ros2_ws/install/my_robot_gazebo::/usr/local:/opt/ros/humble')]), 'shell': False}
+[0.199881] (-) TimerEvent: {}
+[0.232666] (ndt_omp_ros2) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.234602] (my_robot_gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.236563] (omo_r1mini_bringup) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.239798] (my_robot_gazebo) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.240003] (my_robot_gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.240317] (my_robot_gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.241966] (my_robot_gazebo) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.277380] (ndt_omp_ros2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.282187] (omo_r1mini_bringup) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.285293] (ndt_omp_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.287556] (omo_r1mini_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299982] (-) TimerEvent: {}
+[0.340712] (omo_r1mini_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.345898] (omo_r1mini_bringup) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.346126] (omo_r1mini_bringup) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.346568] (omo_r1mini_bringup) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.346694] (ndt_omp_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.348995] (omo_r1mini_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.353426] (ndt_omp_ros2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.353625] (ndt_omp_ros2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.353951] (ndt_omp_ros2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.356126] (ndt_omp_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.358752] (my_robot_gazebo) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.400078] (-) TimerEvent: {}
+[0.411552] (omo_r1mini_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.417827] (omo_r1mini_bringup) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.418057] (omo_r1mini_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.418206] (omo_r1mini_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.419879] (omo_r1mini_bringup) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.430148] (ndt_omp_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.433430] (my_robot_sim) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_robot_sim', 'build', '--build-base', '/home/atoz/ros2_ws/build/my_robot_sim/build', 'install', '--record', '/home/atoz/ros2_ws/build/my_robot_sim/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/atoz/ros2_ws/src/my_robot_sim', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'ko:en', 'USER': 'atoz', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/atoz', 'OLDPWD': '/home/atoz', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'SYSTEMD_EXEC_PID': '1720', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/atoz/ros2_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'fcitx5', 'LOGNAME': 'atoz', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'atoz', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/atoz/ros2_ws/install/ndt_omp_ros2/bin:/opt/ros/humble/bin:/home/atoz/.local/bin:/home/atoz/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/atoz/programs/idea-IC-2025.1/bin:/home/atoz/Desktop/idea-IC-251.25410.129/bin', 'SESSION_MANAGER': 'local/atoz-IdeaPad-Slim-3-15IRH8:@/tmp/.ICE-unix/1692,unix/atoz-IdeaPad-Slim-3-15IRH8:/tmp/.ICE-unix/1692', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b3e94e90_1e41_48c8_a08a_f9c76c54d6d7', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'ko_KR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'XMODIFIERS': '@im=fcitx5', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.278', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/atoz/ros2_ws/install/omo_r1mini_bringup:/home/atoz/ros2_ws/install/ndt_omp_ros2:/home/atoz/ros2_ws/install/my_robot_sim:/home/atoz/ros2_ws/install/my_robot_gazebo:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'fcitx5', 'PWD': '/home/atoz/ros2_ws/build/my_robot_sim', 'TURTLEBOT3_MODEL': 'burger', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/atoz/ros2_ws/build/my_robot_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/atoz/ros2_ws/install/my_robot_sim/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/atoz/ros2_ws/install/omo_r1mini_bringup:/home/atoz/ros2_ws/install/ndt_omp_ros2:/home/atoz/ros2_ws/install/my_robot_sim:/home/atoz/ros2_ws/install/my_robot_gazebo::/usr/local'}, 'shell': False}
+[0.439636] (ndt_omp_ros2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.439813] (ndt_omp_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.440136] (ndt_omp_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.441796] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.472864] (my_robot_gazebo) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.474200] (my_robot_gazebo) StdoutLine: {'line': b'-- Generating done\n'}
+[0.475148] (my_robot_gazebo) StdoutLine: {'line': b'-- Build files have been written to: /home/atoz/ros2_ws/build/my_robot_gazebo\n'}
+[0.478195] (my_robot_gazebo) CommandEnded: {'returncode': 0}
+[0.478782] (my_robot_gazebo) JobProgress: {'identifier': 'my_robot_gazebo', 'progress': 'build'}
+[0.479545] (my_robot_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/atoz/ros2_ws/build/my_robot_gazebo', '--', '-j12', '-l12'], 'cwd': '/home/atoz/ros2_ws/build/my_robot_gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'atoz'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/atoz'), ('OLDPWD', '/home/atoz'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '1720'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/atoz/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx5'), ('LOGNAME', 'atoz'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'atoz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/atoz/ros2_ws/install/ndt_omp_ros2/bin:/opt/ros/humble/bin:/home/atoz/.local/bin:/home/atoz/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/atoz/programs/idea-IC-2025.1/bin:/home/atoz/Desktop/idea-IC-251.25410.129/bin'), ('SESSION_MANAGER', 'local/atoz-IdeaPad-Slim-3-15IRH8:@/tmp/.ICE-unix/1692,unix/atoz-IdeaPad-Slim-3-15IRH8:/tmp/.ICE-unix/1692'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b3e94e90_1e41_48c8_a08a_f9c76c54d6d7'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=fcitx5'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.278'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/atoz/ros2_ws/install/omo_r1mini_bringup:/home/atoz/ros2_ws/install/ndt_omp_ros2:/home/atoz/ros2_ws/install/my_robot_sim:/home/atoz/ros2_ws/install/my_robot_gazebo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'fcitx5'), ('PWD', '/home/atoz/ros2_ws/build/my_robot_gazebo'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/atoz/ros2_ws/install/omo_r1mini_bringup:/home/atoz/ros2_ws/install/ndt_omp_ros2:/home/atoz/ros2_ws/install/my_robot_sim:/home/atoz/ros2_ws/install/my_robot_gazebo::/usr/local:/opt/ros/humble')]), 'shell': False}
+[0.500171] (-) TimerEvent: {}
+[0.511876] (my_robot_gazebo) CommandEnded: {'returncode': 0}
+[0.512590] (my_robot_gazebo) JobProgress: {'identifier': 'my_robot_gazebo', 'progress': 'install'}
+[0.518931] (my_robot_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/atoz/ros2_ws/build/my_robot_gazebo'], 'cwd': '/home/atoz/ros2_ws/build/my_robot_gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'atoz'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/atoz'), ('OLDPWD', '/home/atoz'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '1720'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/atoz/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx5'), ('LOGNAME', 'atoz'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'atoz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/atoz/ros2_ws/install/ndt_omp_ros2/bin:/opt/ros/humble/bin:/home/atoz/.local/bin:/home/atoz/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/atoz/programs/idea-IC-2025.1/bin:/home/atoz/Desktop/idea-IC-251.25410.129/bin'), ('SESSION_MANAGER', 'local/atoz-IdeaPad-Slim-3-15IRH8:@/tmp/.ICE-unix/1692,unix/atoz-IdeaPad-Slim-3-15IRH8:/tmp/.ICE-unix/1692'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b3e94e90_1e41_48c8_a08a_f9c76c54d6d7'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=fcitx5'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.278'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/atoz/ros2_ws/install/omo_r1mini_bringup:/home/atoz/ros2_ws/install/ndt_omp_ros2:/home/atoz/ros2_ws/install/my_robot_sim:/home/atoz/ros2_ws/install/my_robot_gazebo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'fcitx5'), ('PWD', '/home/atoz/ros2_ws/build/my_robot_gazebo'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/atoz/ros2_ws/install/omo_r1mini_bringup:/home/atoz/ros2_ws/install/ndt_omp_ros2:/home/atoz/ros2_ws/install/my_robot_sim:/home/atoz/ros2_ws/install/my_robot_gazebo::/usr/local:/opt/ros/humble')]), 'shell': False}
+[0.528674] (my_robot_gazebo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.528894] (my_robot_gazebo) StdoutLine: {'line': b'-- Installing: /home/atoz/ros2_ws/install/my_robot_gazebo/share/my_robot_gazebo/launch\n'}
+[0.529051] (my_robot_gazebo) StdoutLine: {'line': b'-- Installing: /home/atoz/ros2_ws/install/my_robot_gazebo/share/my_robot_gazebo/launch/my_world.launch.py\n'}
+[0.529228] (my_robot_gazebo) StdoutLine: {'line': b'-- Installing: /home/atoz/ros2_ws/install/my_robot_gazebo/share/my_robot_gazebo/urdf\n'}
+[0.529354] (my_robot_gazebo) StdoutLine: {'line': b'-- Installing: /home/atoz/ros2_ws/install/my_robot_gazebo/share/my_robot_gazebo/urdf/my_robot.urdf\n'}
+[0.529513] (my_robot_gazebo) StdoutLine: {'line': b'-- Installing: /home/atoz/ros2_ws/install/my_robot_gazebo/share/my_robot_gazebo/worlds\n'}
+[0.529583] (my_robot_gazebo) StdoutLine: {'line': b'-- Installing: /home/atoz/ros2_ws/install/my_robot_gazebo/share/my_robot_gazebo/worlds/my_world.world\n'}
+[0.529657] (my_robot_gazebo) StdoutLine: {'line': b'-- Installing: /home/atoz/ros2_ws/install/my_robot_gazebo/share/ament_index/resource_index/package_run_dependencies/my_robot_gazebo\n'}
+[0.529796] (my_robot_gazebo) StdoutLine: {'line': b'-- Installing: /home/atoz/ros2_ws/install/my_robot_gazebo/share/ament_index/resource_index/parent_prefix_path/my_robot_gazebo\n'}
+[0.529966] (my_robot_gazebo) StdoutLine: {'line': b'-- Installing: /home/atoz/ros2_ws/install/my_robot_gazebo/share/my_robot_gazebo/environment/ament_prefix_path.sh\n'}
+[0.530098] (my_robot_gazebo) StdoutLine: {'line': b'-- Installing: /home/atoz/ros2_ws/install/my_robot_gazebo/share/my_robot_gazebo/environment/ament_prefix_path.dsv\n'}
+[0.530244] (my_robot_gazebo) StdoutLine: {'line': b'-- Installing: /home/atoz/ros2_ws/install/my_robot_gazebo/share/my_robot_gazebo/environment/path.sh\n'}
+[0.530373] (my_robot_gazebo) StdoutLine: {'line': b'-- Installing: /home/atoz/ros2_ws/install/my_robot_gazebo/share/my_robot_gazebo/environment/path.dsv\n'}
+[0.530515] (my_robot_gazebo) StdoutLine: {'line': b'-- Installing: /home/atoz/ros2_ws/install/my_robot_gazebo/share/my_robot_gazebo/local_setup.bash\n'}
+[0.530646] (my_robot_gazebo) StdoutLine: {'line': b'-- Installing: /home/atoz/ros2_ws/install/my_robot_gazebo/share/my_robot_gazebo/local_setup.sh\n'}
+[0.530786] (my_robot_gazebo) StdoutLine: {'line': b'-- Installing: /home/atoz/ros2_ws/install/my_robot_gazebo/share/my_robot_gazebo/local_setup.zsh\n'}
+[0.530918] (my_robot_gazebo) StdoutLine: {'line': b'-- Installing: /home/atoz/ros2_ws/install/my_robot_gazebo/share/my_robot_gazebo/local_setup.dsv\n'}
+[0.531055] (my_robot_gazebo) StdoutLine: {'line': b'-- Installing: /home/atoz/ros2_ws/install/my_robot_gazebo/share/my_robot_gazebo/package.dsv\n'}
+[0.531245] (my_robot_gazebo) StdoutLine: {'line': b'-- Installing: /home/atoz/ros2_ws/install/my_robot_gazebo/share/ament_index/resource_index/packages/my_robot_gazebo\n'}
+[0.531404] (my_robot_gazebo) StdoutLine: {'line': b'-- Installing: /home/atoz/ros2_ws/install/my_robot_gazebo/share/my_robot_gazebo/cmake/my_robot_gazeboConfig.cmake\n'}
+[0.531506] (my_robot_gazebo) StdoutLine: {'line': b'-- Installing: /home/atoz/ros2_ws/install/my_robot_gazebo/share/my_robot_gazebo/cmake/my_robot_gazeboConfig-version.cmake\n'}
+[0.531634] (my_robot_gazebo) StdoutLine: {'line': b'-- Installing: /home/atoz/ros2_ws/install/my_robot_gazebo/share/my_robot_gazebo/package.xml\n'}
+[0.533779] (my_robot_gazebo) CommandEnded: {'returncode': 0}
+[0.547364] (omo_r1mini_bringup) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.548789] (my_robot_gazebo) JobEnded: {'identifier': 'my_robot_gazebo', 'rc': 0}
+[0.560754] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.596091] (my_robot_sim) StdoutLine: {'line': b'running egg_info\n'}
+[0.596592] (my_robot_sim) StdoutLine: {'line': b'writing ../../build/my_robot_sim/my_robot_sim.egg-info/PKG-INFO\n'}
+[0.596771] (my_robot_sim) StdoutLine: {'line': b'writing dependency_links to ../../build/my_robot_sim/my_robot_sim.egg-info/dependency_links.txt\n'}
+[0.596900] (my_robot_sim) StdoutLine: {'line': b'writing entry points to ../../build/my_robot_sim/my_robot_sim.egg-info/entry_points.txt\n'}
+[0.597023] (my_robot_sim) StdoutLine: {'line': b'writing requirements to ../../build/my_robot_sim/my_robot_sim.egg-info/requires.txt\n'}
+[0.597107] (my_robot_sim) StdoutLine: {'line': b'writing top-level names to ../../build/my_robot_sim/my_robot_sim.egg-info/top_level.txt\n'}
+[0.598041] (my_robot_sim) StdoutLine: {'line': b"reading manifest file '../../build/my_robot_sim/my_robot_sim.egg-info/SOURCES.txt'\n"}
+[0.598581] (my_robot_sim) StdoutLine: {'line': b"writing manifest file '../../build/my_robot_sim/my_robot_sim.egg-info/SOURCES.txt'\n"}
+[0.598666] (my_robot_sim) StdoutLine: {'line': b'running build\n'}
+[0.598704] (my_robot_sim) StdoutLine: {'line': b'running build_py\n'}
+[0.598775] (my_robot_sim) StdoutLine: {'line': b'running install\n'}
+[0.598942] (my_robot_sim) StdoutLine: {'line': b'running install_lib\n'}
+[0.599920] (my_robot_sim) StdoutLine: {'line': b'running install_data\n'}
+[0.600005] (my_robot_sim) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.600219] (-) TimerEvent: {}
+[0.601134] (my_robot_sim) StdoutLine: {'line': b"removing '/home/atoz/ros2_ws/install/my_robot_sim/lib/python3.10/site-packages/my_robot_sim-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.601231] (my_robot_sim) StdoutLine: {'line': b'Copying ../../build/my_robot_sim/my_robot_sim.egg-info to /home/atoz/ros2_ws/install/my_robot_sim/lib/python3.10/site-packages/my_robot_sim-0.0.0-py3.10.egg-info\n'}
+[0.601698] (my_robot_sim) StdoutLine: {'line': b'running install_scripts\n'}
+[0.613806] (omo_r1mini_bringup) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.615740] (my_robot_sim) StdoutLine: {'line': b'Installing pointcloud_to_scan script to /home/atoz/ros2_ws/install/my_robot_sim/bin\n'}
+[0.616106] (my_robot_sim) StdoutLine: {'line': b"writing list of installed files to '/home/atoz/ros2_ws/build/my_robot_sim/install.log'\n"}
+[0.630563] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.634411] (my_robot_sim) CommandEnded: {'returncode': 0}
+[0.640495] (my_robot_sim) JobEnded: {'identifier': 'my_robot_sim', 'rc': 0}
+[0.645106] (omo_r1mini_bringup) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.648924] (omo_r1mini_bringup) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.654601] (omo_r1mini_bringup) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.662641] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.662840] (omo_r1mini_bringup) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.666282] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.672289] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.674096] (omo_r1mini_bringup) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.680940] (ndt_omp_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.692051] (ndt_omp_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.700321] (-) TimerEvent: {}
+[0.705231] (omo_r1mini_bringup) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.707172] (omo_r1mini_bringup) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.726351] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.728289] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.778516] (omo_r1mini_bringup) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.797420] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.800377] (-) TimerEvent: {}
+[0.802740] (omo_r1mini_bringup) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.820998] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.834611] (omo_r1mini_bringup) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.840758] (omo_r1mini_bringup) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.855541] (ndt_omp_ros2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.863301] (ndt_omp_ros2) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.900518] (-) TimerEvent: {}
+[0.911835] (omo_r1mini_bringup) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.912309] (omo_r1mini_bringup) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.940795] (ndt_omp_ros2) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.941043] (ndt_omp_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.981142] (omo_r1mini_bringup) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.982998] (omo_r1mini_bringup) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.000637] (-) TimerEvent: {}
+[1.002656] (ndt_omp_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.003805] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.019263] (omo_r1mini_bringup) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.048947] (ndt_omp_ros2) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[1.060566] (ndt_omp_ros2) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[1.073812] (omo_r1mini_bringup) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.074356] (omo_r1mini_bringup) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.075126] (omo_r1mini_bringup) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.077339] (omo_r1mini_bringup) StdoutLine: {'line': b'-- Generating done\n'}
+[1.078730] (omo_r1mini_bringup) StdoutLine: {'line': b'-- Build files have been written to: /home/atoz/ros2_ws/build/omo_r1mini_bringup\n'}
+[1.085610] (omo_r1mini_bringup) CommandEnded: {'returncode': 0}
+[1.086158] (omo_r1mini_bringup) JobProgress: {'identifier': 'omo_r1mini_bringup', 'progress': 'build'}
+[1.087075] (omo_r1mini_bringup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/atoz/ros2_ws/build/omo_r1mini_bringup', '--', '-j12', '-l12'], 'cwd': '/home/atoz/ros2_ws/build/omo_r1mini_bringup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'atoz'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/atoz'), ('OLDPWD', '/home/atoz'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '1720'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/atoz/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx5'), ('LOGNAME', 'atoz'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'atoz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/atoz/ros2_ws/install/ndt_omp_ros2/bin:/opt/ros/humble/bin:/home/atoz/.local/bin:/home/atoz/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/atoz/programs/idea-IC-2025.1/bin:/home/atoz/Desktop/idea-IC-251.25410.129/bin'), ('SESSION_MANAGER', 'local/atoz-IdeaPad-Slim-3-15IRH8:@/tmp/.ICE-unix/1692,unix/atoz-IdeaPad-Slim-3-15IRH8:/tmp/.ICE-unix/1692'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b3e94e90_1e41_48c8_a08a_f9c76c54d6d7'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=fcitx5'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.278'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/atoz/ros2_ws/install/omo_r1mini_bringup:/home/atoz/ros2_ws/install/ndt_omp_ros2:/home/atoz/ros2_ws/install/my_robot_sim:/home/atoz/ros2_ws/install/my_robot_gazebo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'fcitx5'), ('PWD', '/home/atoz/ros2_ws/build/omo_r1mini_bringup'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/atoz/ros2_ws/install/omo_r1mini_bringup:/home/atoz/ros2_ws/install/ndt_omp_ros2:/home/atoz/ros2_ws/install/my_robot_sim:/home/atoz/ros2_ws/install/my_robot_gazebo::/usr/local:/opt/ros/humble')]), 'shell': False}
+[1.087659] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[1.087777] (ndt_omp_ros2) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[1.100747] (-) TimerEvent: {}
+[1.101972] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization \n'}
+[1.113301] (ndt_omp_ros2) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[1.115690] (omo_r1mini_bringup) CommandEnded: {'returncode': 0}
+[1.116278] (omo_r1mini_bringup) JobProgress: {'identifier': 'omo_r1mini_bringup', 'progress': 'install'}
+[1.116498] (omo_r1mini_bringup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/atoz/ros2_ws/build/omo_r1mini_bringup'], 'cwd': '/home/atoz/ros2_ws/build/omo_r1mini_bringup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'atoz'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/atoz'), ('OLDPWD', '/home/atoz'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '1720'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/atoz/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx5'), ('LOGNAME', 'atoz'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'atoz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/atoz/ros2_ws/install/ndt_omp_ros2/bin:/opt/ros/humble/bin:/home/atoz/.local/bin:/home/atoz/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/atoz/programs/idea-IC-2025.1/bin:/home/atoz/Desktop/idea-IC-251.25410.129/bin'), ('SESSION_MANAGER', 'local/atoz-IdeaPad-Slim-3-15IRH8:@/tmp/.ICE-unix/1692,unix/atoz-IdeaPad-Slim-3-15IRH8:/tmp/.ICE-unix/1692'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b3e94e90_1e41_48c8_a08a_f9c76c54d6d7'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=fcitx5'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.278'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/atoz/ros2_ws/install/omo_r1mini_bringup:/home/atoz/ros2_ws/install/ndt_omp_ros2:/home/atoz/ros2_ws/install/my_robot_sim:/home/atoz/ros2_ws/install/my_robot_gazebo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'fcitx5'), ('PWD', '/home/atoz/ros2_ws/build/omo_r1mini_bringup'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/atoz/ros2_ws/install/omo_r1mini_bringup:/home/atoz/ros2_ws/install/ndt_omp_ros2:/home/atoz/ros2_ws/install/my_robot_sim:/home/atoz/ros2_ws/install/my_robot_gazebo::/usr/local:/opt/ros/humble')]), 'shell': False}
+[1.123184] (ndt_omp_ros2) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[1.124233] (omo_r1mini_bringup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.124371] (omo_r1mini_bringup) StdoutLine: {'line': b'-- Installing: /home/atoz/ros2_ws/install/omo_r1mini_bringup/share/ament_index/resource_index/package_run_dependencies/omo_r1mini_bringup\n'}
+[1.124559] (omo_r1mini_bringup) StdoutLine: {'line': b'-- Installing: /home/atoz/ros2_ws/install/omo_r1mini_bringup/share/ament_index/resource_index/parent_prefix_path/omo_r1mini_bringup\n'}
+[1.124733] (omo_r1mini_bringup) StdoutLine: {'line': b'-- Installing: /home/atoz/ros2_ws/install/omo_r1mini_bringup/share/omo_r1mini_bringup/environment/ament_prefix_path.sh\n'}
+[1.124839] (omo_r1mini_bringup) StdoutLine: {'line': b'-- Installing: /home/atoz/ros2_ws/install/omo_r1mini_bringup/share/omo_r1mini_bringup/environment/ament_prefix_path.dsv\n'}
+[1.124916] (omo_r1mini_bringup) StdoutLine: {'line': b'-- Installing: /home/atoz/ros2_ws/install/omo_r1mini_bringup/share/omo_r1mini_bringup/environment/path.sh\n'}
+[1.124959] (omo_r1mini_bringup) StdoutLine: {'line': b'-- Installing: /home/atoz/ros2_ws/install/omo_r1mini_bringup/share/omo_r1mini_bringup/environment/path.dsv\n'}
+[1.125003] (omo_r1mini_bringup) StdoutLine: {'line': b'-- Installing: /home/atoz/ros2_ws/install/omo_r1mini_bringup/share/omo_r1mini_bringup/local_setup.bash\n'}
+[1.125045] (omo_r1mini_bringup) StdoutLine: {'line': b'-- Installing: /home/atoz/ros2_ws/install/omo_r1mini_bringup/share/omo_r1mini_bringup/local_setup.sh\n'}
+[1.125102] (omo_r1mini_bringup) StdoutLine: {'line': b'-- Installing: /home/atoz/ros2_ws/install/omo_r1mini_bringup/share/omo_r1mini_bringup/local_setup.zsh\n'}
+[1.125169] (omo_r1mini_bringup) StdoutLine: {'line': b'-- Installing: /home/atoz/ros2_ws/install/omo_r1mini_bringup/share/omo_r1mini_bringup/local_setup.dsv\n'}
+[1.125208] (omo_r1mini_bringup) StdoutLine: {'line': b'-- Installing: /home/atoz/ros2_ws/install/omo_r1mini_bringup/share/omo_r1mini_bringup/package.dsv\n'}
+[1.125242] (omo_r1mini_bringup) StdoutLine: {'line': b'-- Installing: /home/atoz/ros2_ws/install/omo_r1mini_bringup/share/ament_index/resource_index/packages/omo_r1mini_bringup\n'}
+[1.125309] (omo_r1mini_bringup) StdoutLine: {'line': b'-- Installing: /home/atoz/ros2_ws/install/omo_r1mini_bringup/share/omo_r1mini_bringup/cmake/omo_r1mini_bringupConfig.cmake\n'}
+[1.125342] (omo_r1mini_bringup) StdoutLine: {'line': b'-- Installing: /home/atoz/ros2_ws/install/omo_r1mini_bringup/share/omo_r1mini_bringup/cmake/omo_r1mini_bringupConfig-version.cmake\n'}
+[1.125374] (omo_r1mini_bringup) StdoutLine: {'line': b'-- Installing: /home/atoz/ros2_ws/install/omo_r1mini_bringup/share/omo_r1mini_bringup/package.xml\n'}
+[1.126574] (omo_r1mini_bringup) CommandEnded: {'returncode': 0}
+[1.134403] (omo_r1mini_bringup) JobEnded: {'identifier': 'omo_r1mini_bringup', 'rc': 0}
+[1.159871] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[1.160165] (ndt_omp_ros2) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[1.187944] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  \n'}
+[1.191765] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX \n'}
+[1.200949] (-) TimerEvent: {}
+[1.301233] (-) TimerEvent: {}
+[1.333490] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") \n'}
+[1.333747] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found MPI: TRUE (found version "3.1") found components: C \n'}
+[1.335414] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") \n'}
+[1.344865] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") \n'}
+[1.357512] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") \n'}
+[1.364834] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") \n'}
+[1.401340] (-) TimerEvent: {}
+[1.444623] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[1.444921] (ndt_omp_ros2) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[1.501488] (-) TimerEvent: {}
+[1.525894] (ndt_omp_ros2) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[1.526103] (ndt_omp_ros2) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[1.598948] (ndt_omp_ros2) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[1.599257] (ndt_omp_ros2) StdoutLine: {'line': b'-- Looking for connect\n'}
+[1.601573] (-) TimerEvent: {}
+[1.676852] (ndt_omp_ros2) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[1.677016] (ndt_omp_ros2) StdoutLine: {'line': b'-- Looking for remove\n'}
+[1.701690] (-) TimerEvent: {}
+[1.752606] (ndt_omp_ros2) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[1.752778] (ndt_omp_ros2) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[1.801831] (-) TimerEvent: {}
+[1.834806] (ndt_omp_ros2) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[1.834986] (ndt_omp_ros2) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[1.901917] (-) TimerEvent: {}
+[1.906742] (ndt_omp_ros2) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[2.002008] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") \n'}
+[2.002267] (-) TimerEvent: {}
+[2.004617] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  \n'}
+[2.007628] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") \n'}
+[2.009744] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") \n'}
+[2.020797] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") \n'}
+[2.024249] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  \n'}
+[2.027222] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") \n'}
+[2.031086] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found utf8cpp: /usr/include/utf8cpp  \n'}
+[2.102386] (-) TimerEvent: {}
+[2.109067] (ndt_omp_ros2) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[2.126079] (ndt_omp_ros2) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[2.168731] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[2.170025] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") \n'}
+[2.170119] (ndt_omp_ros2) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.202493] (-) TimerEvent: {}
+[2.234807] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") \n'}
+[2.235057] (ndt_omp_ros2) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[2.235295] (ndt_omp_ros2) StderrLine: {'line': b'\x1b[0m** WARNING ** io features related to pcap will be disabled\x1b[0m\n'}
+[2.302581] (-) TimerEvent: {}
+[2.363311] (ndt_omp_ros2) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[2.369524] (ndt_omp_ros2) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.375720] (ndt_omp_ros2) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[2.402676] (-) TimerEvent: {}
+[2.493807] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[2.502760] (-) TimerEvent: {}
+[2.603001] (-) TimerEvent: {}
+[2.607872] (ndt_omp_ros2) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.703133] (-) TimerEvent: {}
+[2.714961] (ndt_omp_ros2) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[2.715672] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[2.715741] (ndt_omp_ros2) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[2.716253] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[2.716358] (ndt_omp_ros2) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[2.716959] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[2.717020] (ndt_omp_ros2) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[2.717506] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[2.717587] (ndt_omp_ros2) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[2.718156] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[2.718209] (ndt_omp_ros2) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[2.718783] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[2.718844] (ndt_omp_ros2) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[2.718987] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12  \n'}
+[2.719092] (ndt_omp_ros2) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[2.719236] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  \n'}
+[2.719316] (ndt_omp_ros2) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[2.719931] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[2.720007] (ndt_omp_ros2) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[2.720568] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[2.720638] (ndt_omp_ros2) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[2.721170] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[2.721265] (ndt_omp_ros2) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[2.721803] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[2.721938] (ndt_omp_ros2) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[2.722508] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[2.722593] (ndt_omp_ros2) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[2.723171] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[2.723258] (ndt_omp_ros2) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[2.723862] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[2.723952] (ndt_omp_ros2) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[2.724502] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[2.724602] (ndt_omp_ros2) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[2.725168] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[2.725250] (ndt_omp_ros2) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[2.725800] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[2.725923] (ndt_omp_ros2) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[2.726506] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[2.726562] (ndt_omp_ros2) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[2.727131] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[2.727530] (ndt_omp_ros2) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[2.727617] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  \n'}
+[2.727691] (ndt_omp_ros2) StdoutLine: {'line': b'-- looking for PCL_MODELER\n'}
+[2.727847] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.12  \n'}
+[2.727919] (ndt_omp_ros2) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[2.728089] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  \n'}
+[2.728162] (ndt_omp_ros2) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[2.728726] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[2.728826] (ndt_omp_ros2) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[2.729357] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[2.730002] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL (Required is at least version "1.12") \n'}
+[2.730205] (ndt_omp_ros2) StdoutLine: {'line': b'-- PCL_INCLUDE_DIRS:/usr/include/pcl-1.12/usr/include/eigen3/usr/include/usr/include/ni/usr/include/openni2\n'}
+[2.730242] (ndt_omp_ros2) StdoutLine: {'line': b'-- PCL_LIBRARY_DIRS:/usr/lib/x86_64-linux-gnu\n'}
+[2.730270] (ndt_omp_ros2) StdoutLine: {'line': b'-- PCL_DEFINITIONS:-DDISABLE_PCAP\n'}
+[2.803225] (-) TimerEvent: {}
+[2.903495] (-) TimerEvent: {}
+[2.966995] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found OpenMP_C: -fopenmp (found version "4.5") \n'}
+[3.003618] (-) TimerEvent: {}
+[3.065997] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found OpenMP_CXX: -fopenmp (found version "4.5") \n'}
+[3.066301] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found OpenMP: TRUE (found version "4.5")  \n'}
+[3.103691] (-) TimerEvent: {}
+[3.117014] (ndt_omp_ros2) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.132826] (ndt_omp_ros2) StdoutLine: {'line': b'-- Generating done\n'}
+[3.138883] (ndt_omp_ros2) StdoutLine: {'line': b'-- Build files have been written to: /home/atoz/ros2_ws/build/ndt_omp_ros2\n'}
+[3.153266] (ndt_omp_ros2) CommandEnded: {'returncode': 0}
+[3.154714] (ndt_omp_ros2) JobProgress: {'identifier': 'ndt_omp_ros2', 'progress': 'build'}
+[3.154875] (ndt_omp_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/atoz/ros2_ws/build/ndt_omp_ros2', '--', '-j12', '-l12'], 'cwd': '/home/atoz/ros2_ws/build/ndt_omp_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'atoz'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/atoz'), ('OLDPWD', '/home/atoz'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '1720'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/atoz/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx5'), ('LOGNAME', 'atoz'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'atoz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/atoz/ros2_ws/install/ndt_omp_ros2/bin:/opt/ros/humble/bin:/home/atoz/.local/bin:/home/atoz/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/atoz/programs/idea-IC-2025.1/bin:/home/atoz/Desktop/idea-IC-251.25410.129/bin'), ('SESSION_MANAGER', 'local/atoz-IdeaPad-Slim-3-15IRH8:@/tmp/.ICE-unix/1692,unix/atoz-IdeaPad-Slim-3-15IRH8:/tmp/.ICE-unix/1692'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b3e94e90_1e41_48c8_a08a_f9c76c54d6d7'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=fcitx5'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.278'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/atoz/ros2_ws/install/omo_r1mini_bringup:/home/atoz/ros2_ws/install/ndt_omp_ros2:/home/atoz/ros2_ws/install/my_robot_sim:/home/atoz/ros2_ws/install/my_robot_gazebo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'fcitx5'), ('PWD', '/home/atoz/ros2_ws/build/ndt_omp_ros2'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/atoz/ros2_ws/install/omo_r1mini_bringup:/home/atoz/ros2_ws/install/ndt_omp_ros2:/home/atoz/ros2_ws/install/my_robot_sim:/home/atoz/ros2_ws/install/my_robot_gazebo::/usr/local:/opt/ros/humble')]), 'shell': False}
+[3.203393] (ndt_omp_ros2) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/ndt_omp.dir/src/pclomp/voxel_grid_covariance_omp.cpp.o\x1b[0m\n'}
+[3.203657] (ndt_omp_ros2) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/ndt_omp.dir/src/pclomp/ndt_omp.cpp.o\x1b[0m\n'}
+[3.203783] (-) TimerEvent: {}
+[3.203987] (ndt_omp_ros2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ndt_omp.dir/src/pclomp/gicp_omp.cpp.o\x1b[0m\n'}
+[3.304037] (-) TimerEvent: {}
+[3.404359] (-) TimerEvent: {}
+[3.504677] (-) TimerEvent: {}
+[3.605149] (-) TimerEvent: {}
+[3.705557] (-) TimerEvent: {}
+[3.806011] (-) TimerEvent: {}
+[3.906484] (-) TimerEvent: {}
+[4.006810] (-) TimerEvent: {}
+[4.107188] (-) TimerEvent: {}
+[4.207515] (-) TimerEvent: {}
+[4.307885] (-) TimerEvent: {}
+[4.408259] (-) TimerEvent: {}
+[4.508712] (-) TimerEvent: {}
+[4.609157] (-) TimerEvent: {}
+[4.709587] (-) TimerEvent: {}
+[4.809895] (-) TimerEvent: {}
+[4.910177] (-) TimerEvent: {}
+[5.010498] (-) TimerEvent: {}
+[5.110800] (-) TimerEvent: {}
+[5.211200] (-) TimerEvent: {}
+[5.311521] (-) TimerEvent: {}
+[5.411885] (-) TimerEvent: {}
+[5.512179] (-) TimerEvent: {}
+[5.612462] (-) TimerEvent: {}
+[5.712733] (-) TimerEvent: {}
+[5.813051] (-) TimerEvent: {}
+[5.913394] (-) TimerEvent: {}
+[6.013695] (-) TimerEvent: {}
+[6.113997] (-) TimerEvent: {}
+[6.214289] (-) TimerEvent: {}
+[6.314536] (-) TimerEvent: {}
+[6.414798] (-) TimerEvent: {}
+[6.515091] (-) TimerEvent: {}
+[6.615395] (-) TimerEvent: {}
+[6.715739] (-) TimerEvent: {}
+[6.816076] (-) TimerEvent: {}
+[6.916436] (-) TimerEvent: {}
+[7.016809] (-) TimerEvent: {}
+[7.117146] (-) TimerEvent: {}
+[7.217631] (-) TimerEvent: {}
+[7.317904] (-) TimerEvent: {}
+[7.418266] (-) TimerEvent: {}
+[7.518570] (-) TimerEvent: {}
+[7.618864] (-) TimerEvent: {}
+[7.719169] (-) TimerEvent: {}
+[7.819479] (-) TimerEvent: {}
+[7.919790] (-) TimerEvent: {}
+[8.020097] (-) TimerEvent: {}
+[8.120399] (-) TimerEvent: {}
+[8.220710] (-) TimerEvent: {}
+[8.321073] (-) TimerEvent: {}
+[8.421339] (-) TimerEvent: {}
+[8.521631] (-) TimerEvent: {}
+[8.621972] (-) TimerEvent: {}
+[8.722298] (-) TimerEvent: {}
+[8.822661] (-) TimerEvent: {}
+[8.923039] (-) TimerEvent: {}
+[9.023527] (-) TimerEvent: {}
+[9.123882] (-) TimerEvent: {}
+[9.224188] (-) TimerEvent: {}
+[9.324507] (-) TimerEvent: {}
+[9.424797] (-) TimerEvent: {}
+[9.525099] (-) TimerEvent: {}
+[9.625400] (-) TimerEvent: {}
+[9.725689] (-) TimerEvent: {}
+[9.825987] (-) TimerEvent: {}
+[9.926296] (-) TimerEvent: {}
+[10.026622] (-) TimerEvent: {}
+[10.126931] (-) TimerEvent: {}
+[10.227175] (-) TimerEvent: {}
+[10.327478] (-) TimerEvent: {}
+[10.427787] (-) TimerEvent: {}
+[10.528240] (-) TimerEvent: {}
+[10.628534] (-) TimerEvent: {}
+[10.728800] (-) TimerEvent: {}
+[10.829049] (-) TimerEvent: {}
+[10.929313] (-) TimerEvent: {}
+[11.029566] (-) TimerEvent: {}
+[11.129842] (-) TimerEvent: {}
+[11.230187] (-) TimerEvent: {}
+[11.330431] (-) TimerEvent: {}
+[11.430783] (-) TimerEvent: {}
+[11.531029] (-) TimerEvent: {}
+[11.631330] (-) TimerEvent: {}
+[11.731600] (-) TimerEvent: {}
+[11.831886] (-) TimerEvent: {}
+[11.932137] (-) TimerEvent: {}
+[12.032365] (-) TimerEvent: {}
+[12.132636] (-) TimerEvent: {}
+[12.232983] (-) TimerEvent: {}
+[12.333228] (-) TimerEvent: {}
+[12.433473] (-) TimerEvent: {}
+[12.533773] (-) TimerEvent: {}
+[12.634043] (-) TimerEvent: {}
+[12.734305] (-) TimerEvent: {}
+[12.834576] (-) TimerEvent: {}
+[12.934885] (-) TimerEvent: {}
+[13.035214] (-) TimerEvent: {}
+[13.135579] (-) TimerEvent: {}
+[13.235944] (-) TimerEvent: {}
+[13.336270] (-) TimerEvent: {}
+[13.436610] (-) TimerEvent: {}
+[13.536940] (-) TimerEvent: {}
+[13.637268] (-) TimerEvent: {}
+[13.737515] (-) TimerEvent: {}
+[13.837848] (-) TimerEvent: {}
+[13.938173] (-) TimerEvent: {}
+[14.038405] (-) TimerEvent: {}
+[14.138637] (-) TimerEvent: {}
+[14.238972] (-) TimerEvent: {}
+[14.339287] (-) TimerEvent: {}
+[14.439590] (-) TimerEvent: {}
+[14.539937] (-) TimerEvent: {}
+[14.562670] (ndt_omp_ros2) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX static library libndt_omp.a\x1b[0m\n'}
+[14.609750] (ndt_omp_ros2) StdoutLine: {'line': b'[ 66%] Built target ndt_omp\n'}
+[14.636494] (ndt_omp_ros2) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/align.dir/apps/align.cpp.o\x1b[0m\n'}
+[14.640173] (-) TimerEvent: {}
+[14.740521] (-) TimerEvent: {}
+[14.840828] (-) TimerEvent: {}
+[14.941243] (-) TimerEvent: {}
+[15.041471] (-) TimerEvent: {}
+[15.141803] (-) TimerEvent: {}
+[15.242162] (-) TimerEvent: {}
+[15.342395] (-) TimerEvent: {}
+[15.442747] (-) TimerEvent: {}
+[15.543080] (-) TimerEvent: {}
+[15.643432] (-) TimerEvent: {}
+[15.743769] (-) TimerEvent: {}
+[15.844104] (-) TimerEvent: {}
+[15.944447] (-) TimerEvent: {}
+[16.044816] (-) TimerEvent: {}
+[16.145168] (-) TimerEvent: {}
+[16.245438] (-) TimerEvent: {}
+[16.345725] (-) TimerEvent: {}
+[16.446008] (-) TimerEvent: {}
+[16.546305] (-) TimerEvent: {}
+[16.646608] (-) TimerEvent: {}
+[16.746901] (-) TimerEvent: {}
+[16.847299] (-) TimerEvent: {}
+[16.947597] (-) TimerEvent: {}
+[17.047950] (-) TimerEvent: {}
+[17.148288] (-) TimerEvent: {}
+[17.248602] (-) TimerEvent: {}
+[17.348964] (-) TimerEvent: {}
+[17.449206] (-) TimerEvent: {}
+[17.549461] (-) TimerEvent: {}
+[17.649757] (-) TimerEvent: {}
+[17.750105] (-) TimerEvent: {}
+[17.850354] (-) TimerEvent: {}
+[17.950645] (-) TimerEvent: {}
+[18.050983] (-) TimerEvent: {}
+[18.151340] (-) TimerEvent: {}
+[18.251639] (-) TimerEvent: {}
+[18.351974] (-) TimerEvent: {}
+[18.452329] (-) TimerEvent: {}
+[18.552681] (-) TimerEvent: {}
+[18.653012] (-) TimerEvent: {}
+[18.753278] (-) TimerEvent: {}
+[18.853564] (-) TimerEvent: {}
+[18.953906] (-) TimerEvent: {}
+[19.054261] (-) TimerEvent: {}
+[19.154602] (-) TimerEvent: {}
+[19.254960] (-) TimerEvent: {}
+[19.355262] (-) TimerEvent: {}
+[19.455509] (-) TimerEvent: {}
+[19.555858] (-) TimerEvent: {}
+[19.656239] (-) TimerEvent: {}
+[19.756537] (-) TimerEvent: {}
+[19.856871] (-) TimerEvent: {}
+[19.957206] (-) TimerEvent: {}
+[20.057552] (-) TimerEvent: {}
+[20.157925] (-) TimerEvent: {}
+[20.258257] (-) TimerEvent: {}
+[20.358515] (-) TimerEvent: {}
+[20.458850] (-) TimerEvent: {}
+[20.559178] (-) TimerEvent: {}
+[20.659520] (-) TimerEvent: {}
+[20.759870] (-) TimerEvent: {}
+[20.860210] (-) TimerEvent: {}
+[20.960561] (-) TimerEvent: {}
+[21.060909] (-) TimerEvent: {}
+[21.161292] (-) TimerEvent: {}
+[21.261617] (-) TimerEvent: {}
+[21.361949] (-) TimerEvent: {}
+[21.462333] (-) TimerEvent: {}
+[21.562577] (-) TimerEvent: {}
+[21.662824] (-) TimerEvent: {}
+[21.763150] (-) TimerEvent: {}
+[21.863400] (-) TimerEvent: {}
+[21.963632] (-) TimerEvent: {}
+[22.063899] (-) TimerEvent: {}
+[22.164258] (-) TimerEvent: {}
+[22.264631] (-) TimerEvent: {}
+[22.364970] (-) TimerEvent: {}
+[22.465255] (-) TimerEvent: {}
+[22.565568] (-) TimerEvent: {}
+[22.665990] (-) TimerEvent: {}
+[22.766295] (-) TimerEvent: {}
+[22.866647] (-) TimerEvent: {}
+[22.967006] (-) TimerEvent: {}
+[23.067304] (-) TimerEvent: {}
+[23.167640] (-) TimerEvent: {}
+[23.267922] (-) TimerEvent: {}
+[23.368164] (-) TimerEvent: {}
+[23.468399] (-) TimerEvent: {}
+[23.568676] (-) TimerEvent: {}
+[23.668930] (-) TimerEvent: {}
+[23.769342] (-) TimerEvent: {}
+[23.869691] (-) TimerEvent: {}
+[23.970003] (-) TimerEvent: {}
+[24.070290] (-) TimerEvent: {}
+[24.170561] (-) TimerEvent: {}
+[24.270903] (-) TimerEvent: {}
+[24.371249] (-) TimerEvent: {}
+[24.471496] (-) TimerEvent: {}
+[24.571863] (-) TimerEvent: {}
+[24.672175] (-) TimerEvent: {}
+[24.772525] (-) TimerEvent: {}
+[24.872873] (-) TimerEvent: {}
+[24.973145] (-) TimerEvent: {}
+[25.073433] (-) TimerEvent: {}
+[25.173714] (-) TimerEvent: {}
+[25.273977] (-) TimerEvent: {}
+[25.374222] (-) TimerEvent: {}
+[25.474465] (-) TimerEvent: {}
+[25.574713] (-) TimerEvent: {}
+[25.675026] (-) TimerEvent: {}
+[25.775310] (-) TimerEvent: {}
+[25.875595] (-) TimerEvent: {}
+[25.975873] (-) TimerEvent: {}
+[26.076239] (-) TimerEvent: {}
+[26.176494] (-) TimerEvent: {}
+[26.276793] (-) TimerEvent: {}
+[26.377151] (-) TimerEvent: {}
+[26.477408] (-) TimerEvent: {}
+[26.577738] (-) TimerEvent: {}
+[26.678007] (-) TimerEvent: {}
+[26.778287] (-) TimerEvent: {}
+[26.878539] (-) TimerEvent: {}
+[26.978822] (-) TimerEvent: {}
+[27.079230] (-) TimerEvent: {}
+[27.179525] (-) TimerEvent: {}
+[27.279770] (-) TimerEvent: {}
+[27.380200] (-) TimerEvent: {}
+[27.480450] (-) TimerEvent: {}
+[27.580917] (-) TimerEvent: {}
+[27.681236] (-) TimerEvent: {}
+[27.781522] (-) TimerEvent: {}
+[27.881785] (-) TimerEvent: {}
+[27.982038] (-) TimerEvent: {}
+[28.082334] (-) TimerEvent: {}
+[28.182570] (-) TimerEvent: {}
+[28.282835] (-) TimerEvent: {}
+[28.383176] (-) TimerEvent: {}
+[28.483414] (-) TimerEvent: {}
+[28.583647] (-) TimerEvent: {}
+[28.683982] (-) TimerEvent: {}
+[28.784238] (-) TimerEvent: {}
+[28.884478] (-) TimerEvent: {}
+[28.984751] (-) TimerEvent: {}
+[29.085002] (-) TimerEvent: {}
+[29.185274] (-) TimerEvent: {}
+[29.285529] (-) TimerEvent: {}
+[29.385818] (-) TimerEvent: {}
+[29.486179] (-) TimerEvent: {}
+[29.586410] (-) TimerEvent: {}
+[29.686677] (-) TimerEvent: {}
+[29.786943] (-) TimerEvent: {}
+[29.887289] (-) TimerEvent: {}
+[29.987548] (-) TimerEvent: {}
+[30.087890] (-) TimerEvent: {}
+[30.188242] (-) TimerEvent: {}
+[30.288497] (-) TimerEvent: {}
+[30.388760] (-) TimerEvent: {}
+[30.489094] (-) TimerEvent: {}
+[30.589351] (-) TimerEvent: {}
+[30.689630] (-) TimerEvent: {}
+[30.789879] (-) TimerEvent: {}
+[30.890227] (-) TimerEvent: {}
+[30.990470] (-) TimerEvent: {}
+[31.090731] (-) TimerEvent: {}
+[31.190977] (-) TimerEvent: {}
+[31.291288] (-) TimerEvent: {}
+[31.391518] (-) TimerEvent: {}
+[31.491851] (-) TimerEvent: {}
+[31.592142] (-) TimerEvent: {}
+[31.692403] (-) TimerEvent: {}
+[31.792726] (-) TimerEvent: {}
+[31.893049] (-) TimerEvent: {}
+[31.993404] (-) TimerEvent: {}
+[32.093675] (-) TimerEvent: {}
+[32.194011] (-) TimerEvent: {}
+[32.294278] (-) TimerEvent: {}
+[32.394522] (-) TimerEvent: {}
+[32.494760] (-) TimerEvent: {}
+[32.594977] (-) TimerEvent: {}
+[32.695333] (-) TimerEvent: {}
+[32.757976] (ndt_omp_ros2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable align\x1b[0m\n'}
+[32.795526] (-) TimerEvent: {}
+[32.895873] (-) TimerEvent: {}
+[32.996178] (-) TimerEvent: {}
+[33.096488] (-) TimerEvent: {}
+[33.196798] (-) TimerEvent: {}
+[33.297082] (-) TimerEvent: {}
+[33.397395] (-) TimerEvent: {}
+[33.497692] (-) TimerEvent: {}
+[33.509023] (ndt_omp_ros2) StdoutLine: {'line': b'[100%] Built target align\n'}
+[33.524291] (ndt_omp_ros2) CommandEnded: {'returncode': 0}
+[33.525622] (ndt_omp_ros2) JobProgress: {'identifier': 'ndt_omp_ros2', 'progress': 'install'}
+[33.526714] (ndt_omp_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/atoz/ros2_ws/build/ndt_omp_ros2'], 'cwd': '/home/atoz/ros2_ws/build/ndt_omp_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'atoz'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/atoz'), ('OLDPWD', '/home/atoz'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '1720'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/atoz/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx5'), ('LOGNAME', 'atoz'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'atoz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/atoz/ros2_ws/install/ndt_omp_ros2/bin:/opt/ros/humble/bin:/home/atoz/.local/bin:/home/atoz/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/atoz/programs/idea-IC-2025.1/bin:/home/atoz/Desktop/idea-IC-251.25410.129/bin'), ('SESSION_MANAGER', 'local/atoz-IdeaPad-Slim-3-15IRH8:@/tmp/.ICE-unix/1692,unix/atoz-IdeaPad-Slim-3-15IRH8:/tmp/.ICE-unix/1692'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b3e94e90_1e41_48c8_a08a_f9c76c54d6d7'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=fcitx5'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.278'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/atoz/ros2_ws/install/omo_r1mini_bringup:/home/atoz/ros2_ws/install/ndt_omp_ros2:/home/atoz/ros2_ws/install/my_robot_sim:/home/atoz/ros2_ws/install/my_robot_gazebo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'fcitx5'), ('PWD', '/home/atoz/ros2_ws/build/ndt_omp_ros2'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/atoz/ros2_ws/install/omo_r1mini_bringup:/home/atoz/ros2_ws/install/ndt_omp_ros2:/home/atoz/ros2_ws/install/my_robot_sim:/home/atoz/ros2_ws/install/my_robot_gazebo::/usr/local:/opt/ros/humble')]), 'shell': False}
+[33.539306] (ndt_omp_ros2) StdoutLine: {'line': b'-- Install configuration: "RELEASE"\n'}
+[33.539507] (ndt_omp_ros2) StdoutLine: {'line': b'-- Installing: /home/atoz/ros2_ws/install/ndt_omp_ros2/lib/ndt_omp_ros2/align\n'}
+[33.540352] (ndt_omp_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/atoz/ros2_ws/install/ndt_omp_ros2/lib/ndt_omp_ros2/align" to ""\n'}
+[33.540502] (ndt_omp_ros2) StdoutLine: {'line': b'-- Installing: /home/atoz/ros2_ws/install/ndt_omp_ros2/bin/align\n'}
+[33.541209] (ndt_omp_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/atoz/ros2_ws/install/ndt_omp_ros2/bin/align" to ""\n'}
+[33.541452] (ndt_omp_ros2) StdoutLine: {'line': b'-- Installing: /home/atoz/ros2_ws/install/ndt_omp_ros2/include\n'}
+[33.541517] (ndt_omp_ros2) StdoutLine: {'line': b'-- Installing: /home/atoz/ros2_ws/install/ndt_omp_ros2/include/pclomp\n'}
+[33.541568] (ndt_omp_ros2) StdoutLine: {'line': b'-- Installing: /home/atoz/ros2_ws/install/ndt_omp_ros2/include/pclomp/ndt_omp.h\n'}
+[33.541615] (ndt_omp_ros2) StdoutLine: {'line': b'-- Installing: /home/atoz/ros2_ws/install/ndt_omp_ros2/include/pclomp/ndt_omp_impl.hpp\n'}
+[33.541660] (ndt_omp_ros2) StdoutLine: {'line': b'-- Installing: /home/atoz/ros2_ws/install/ndt_omp_ros2/include/pclomp/gicp_omp.h\n'}
+[33.541706] (ndt_omp_ros2) StdoutLine: {'line': b'-- Installing: /home/atoz/ros2_ws/install/ndt_omp_ros2/include/pclomp/voxel_grid_covariance_omp_impl.hpp\n'}
+[33.541749] (ndt_omp_ros2) StdoutLine: {'line': b'-- Installing: /home/atoz/ros2_ws/install/ndt_omp_ros2/include/pclomp/voxel_grid_covariance_omp.h\n'}
+[33.541816] (ndt_omp_ros2) StdoutLine: {'line': b'-- Installing: /home/atoz/ros2_ws/install/ndt_omp_ros2/include/pclomp/gicp_omp_impl.hpp\n'}
+[33.541906] (ndt_omp_ros2) StdoutLine: {'line': b'-- Installing: /home/atoz/ros2_ws/install/ndt_omp_ros2/share/ament_index/resource_index/package_run_dependencies/ndt_omp_ros2\n'}
+[33.541955] (ndt_omp_ros2) StdoutLine: {'line': b'-- Installing: /home/atoz/ros2_ws/install/ndt_omp_ros2/share/ament_index/resource_index/parent_prefix_path/ndt_omp_ros2\n'}
+[33.542001] (ndt_omp_ros2) StdoutLine: {'line': b'-- Installing: /home/atoz/ros2_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/environment/ament_prefix_path.sh\n'}
+[33.542047] (ndt_omp_ros2) StdoutLine: {'line': b'-- Installing: /home/atoz/ros2_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/environment/ament_prefix_path.dsv\n'}
+[33.542127] (ndt_omp_ros2) StdoutLine: {'line': b'-- Installing: /home/atoz/ros2_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/environment/path.sh\n'}
+[33.542177] (ndt_omp_ros2) StdoutLine: {'line': b'-- Installing: /home/atoz/ros2_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/environment/path.dsv\n'}
+[33.542223] (ndt_omp_ros2) StdoutLine: {'line': b'-- Installing: /home/atoz/ros2_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/local_setup.bash\n'}
+[33.542293] (ndt_omp_ros2) StdoutLine: {'line': b'-- Installing: /home/atoz/ros2_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/local_setup.sh\n'}
+[33.542338] (ndt_omp_ros2) StdoutLine: {'line': b'-- Installing: /home/atoz/ros2_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/local_setup.zsh\n'}
+[33.542402] (ndt_omp_ros2) StdoutLine: {'line': b'-- Installing: /home/atoz/ros2_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/local_setup.dsv\n'}
+[33.542468] (ndt_omp_ros2) StdoutLine: {'line': b'-- Installing: /home/atoz/ros2_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/package.dsv\n'}
+[33.542533] (ndt_omp_ros2) StdoutLine: {'line': b'-- Installing: /home/atoz/ros2_ws/install/ndt_omp_ros2/share/ament_index/resource_index/packages/ndt_omp_ros2\n'}
+[33.542609] (ndt_omp_ros2) StdoutLine: {'line': b'-- Installing: /home/atoz/ros2_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[33.542667] (ndt_omp_ros2) StdoutLine: {'line': b'-- Installing: /home/atoz/ros2_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[33.542726] (ndt_omp_ros2) StdoutLine: {'line': b'-- Installing: /home/atoz/ros2_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/cmake/ndt_omp_ros2Config.cmake\n'}
+[33.542800] (ndt_omp_ros2) StdoutLine: {'line': b'-- Installing: /home/atoz/ros2_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/cmake/ndt_omp_ros2Config-version.cmake\n'}
+[33.542925] (ndt_omp_ros2) StdoutLine: {'line': b'-- Installing: /home/atoz/ros2_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/package.xml\n'}
+[33.544528] (ndt_omp_ros2) CommandEnded: {'returncode': 0}
+[33.558832] (ndt_omp_ros2) JobEnded: {'identifier': 'ndt_omp_ros2', 'rc': 0}
+[33.559703] (-) EventReactorShutdown: {}

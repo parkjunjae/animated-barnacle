@@ -1,0 +1,12 @@
+source;share/my_robot_sim/hook/path.ps1
+source;share/my_robot_sim/hook/path.dsv
+source;share/my_robot_sim/hook/path.sh
+source;share/my_robot_sim/hook/pythonpath.ps1
+source;share/my_robot_sim/hook/pythonpath.dsv
+source;share/my_robot_sim/hook/pythonpath.sh
+source;share/my_robot_sim/hook/pythonscriptspath.ps1
+source;share/my_robot_sim/hook/pythonscriptspath.dsv
+source;share/my_robot_sim/hook/pythonscriptspath.sh
+source;share/my_robot_sim/hook/ament_prefix_path.ps1
+source;share/my_robot_sim/hook/ament_prefix_path.dsv
+source;share/my_robot_sim/hook/ament_prefix_path.sh

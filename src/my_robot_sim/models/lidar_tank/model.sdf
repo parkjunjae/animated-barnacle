@@ -1,0 +1,17 @@
+<sdf version="1.6">
+  <model name="lidar_tank">
+    <!-- 플러그인 따로 명시 -->
+    <plugin name="diff_drive" filename="libgazebo_ros_diff_drive.so">
+      <ros>
+        <remapping>cmd_vel:=/cmd_vel</remapping>
+      </ros>
+      <left_joints>joint_wheel_fl joint_wheel_rl</left_joints>
+      <right_joints>joint_wheel_fr joint_wheel_rr</right_joints>
+      
+      <wheel_separation>0.36</wheel_separation>
+      <wheel_radius>0.05</wheel_radius>
+      <publish_odom>true</publish_odom>
+    </plugin>
+  </model>
+</sdf>
+

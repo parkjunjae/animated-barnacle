@@ -1,0 +1,37 @@
+[0.467s] Invoking command in '/home/atoz/ros2_ws/src/my_robot_sim': PYTHONPATH=/home/atoz/ros2_ws/build/my_robot_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/atoz/ros2_ws/install/my_robot_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_sim build --build-base /home/atoz/ros2_ws/build/my_robot_sim/build install --record /home/atoz/ros2_ws/build/my_robot_sim/install.log --single-version-externally-managed install_data
+[0.640s] running egg_info
+[0.641s] creating ../../build/my_robot_sim/my_robot_sim.egg-info
+[0.641s] writing ../../build/my_robot_sim/my_robot_sim.egg-info/PKG-INFO
+[0.642s] writing dependency_links to ../../build/my_robot_sim/my_robot_sim.egg-info/dependency_links.txt
+[0.642s] writing entry points to ../../build/my_robot_sim/my_robot_sim.egg-info/entry_points.txt
+[0.642s] writing requirements to ../../build/my_robot_sim/my_robot_sim.egg-info/requires.txt
+[0.642s] writing top-level names to ../../build/my_robot_sim/my_robot_sim.egg-info/top_level.txt
+[0.642s] writing manifest file '../../build/my_robot_sim/my_robot_sim.egg-info/SOURCES.txt'
+[0.645s] reading manifest file '../../build/my_robot_sim/my_robot_sim.egg-info/SOURCES.txt'
+[0.646s] writing manifest file '../../build/my_robot_sim/my_robot_sim.egg-info/SOURCES.txt'
+[0.646s] running build
+[0.646s] running build_py
+[0.647s] creating /home/atoz/ros2_ws/build/my_robot_sim/build
+[0.647s] creating /home/atoz/ros2_ws/build/my_robot_sim/build/lib
+[0.647s] creating /home/atoz/ros2_ws/build/my_robot_sim/build/lib/my_robot_sim
+[0.647s] copying my_robot_sim/pointcloud_to_scan.py -> /home/atoz/ros2_ws/build/my_robot_sim/build/lib/my_robot_sim
+[0.647s] copying my_robot_sim/__init__.py -> /home/atoz/ros2_ws/build/my_robot_sim/build/lib/my_robot_sim
+[0.647s] running install
+[0.647s] running install_lib
+[0.648s] creating /home/atoz/ros2_ws/install/my_robot_sim/lib/python3.10/site-packages/my_robot_sim
+[0.648s] copying /home/atoz/ros2_ws/build/my_robot_sim/build/lib/my_robot_sim/pointcloud_to_scan.py -> /home/atoz/ros2_ws/install/my_robot_sim/lib/python3.10/site-packages/my_robot_sim
+[0.648s] copying /home/atoz/ros2_ws/build/my_robot_sim/build/lib/my_robot_sim/__init__.py -> /home/atoz/ros2_ws/install/my_robot_sim/lib/python3.10/site-packages/my_robot_sim
+[0.648s] byte-compiling /home/atoz/ros2_ws/install/my_robot_sim/lib/python3.10/site-packages/my_robot_sim/pointcloud_to_scan.py to pointcloud_to_scan.cpython-310.pyc
+[0.649s] byte-compiling /home/atoz/ros2_ws/install/my_robot_sim/lib/python3.10/site-packages/my_robot_sim/__init__.py to __init__.cpython-310.pyc
+[0.649s] running install_data
+[0.649s] creating /home/atoz/ros2_ws/install/my_robot_sim/share/ament_index
+[0.649s] creating /home/atoz/ros2_ws/install/my_robot_sim/share/ament_index/resource_index
+[0.649s] creating /home/atoz/ros2_ws/install/my_robot_sim/share/ament_index/resource_index/packages
+[0.649s] copying resource/my_robot_sim -> /home/atoz/ros2_ws/install/my_robot_sim/share/ament_index/resource_index/packages
+[0.649s] copying package.xml -> /home/atoz/ros2_ws/install/my_robot_sim/share/my_robot_sim
+[0.649s] running install_egg_info
+[0.650s] Copying ../../build/my_robot_sim/my_robot_sim.egg-info to /home/atoz/ros2_ws/install/my_robot_sim/lib/python3.10/site-packages/my_robot_sim-0.0.0-py3.10.egg-info
+[0.651s] running install_scripts
+[0.666s] Installing pointcloud_to_scan script to /home/atoz/ros2_ws/install/my_robot_sim/bin
+[0.666s] writing list of installed files to '/home/atoz/ros2_ws/build/my_robot_sim/install.log'
+[0.687s] Invoked command in '/home/atoz/ros2_ws/src/my_robot_sim' returned '0': PYTHONPATH=/home/atoz/ros2_ws/build/my_robot_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/atoz/ros2_ws/install/my_robot_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_sim build --build-base /home/atoz/ros2_ws/build/my_robot_sim/build install --record /home/atoz/ros2_ws/build/my_robot_sim/install.log --single-version-externally-managed install_data

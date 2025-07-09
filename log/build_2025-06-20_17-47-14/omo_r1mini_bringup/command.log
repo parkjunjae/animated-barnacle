@@ -1,0 +1,6 @@
+Invoking command in '/home/atoz/ros2_ws/build/omo_r1mini_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/atoz/ros2_ws/src/omo_r1mini_bringup -DCMAKE_INSTALL_PREFIX=/home/atoz/ros2_ws/install/omo_r1mini_bringup
+Invoked command in '/home/atoz/ros2_ws/build/omo_r1mini_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/atoz/ros2_ws/src/omo_r1mini_bringup -DCMAKE_INSTALL_PREFIX=/home/atoz/ros2_ws/install/omo_r1mini_bringup
+Invoking command in '/home/atoz/ros2_ws/build/omo_r1mini_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/atoz/ros2_ws/build/omo_r1mini_bringup -- -j12 -l12
+Invoked command in '/home/atoz/ros2_ws/build/omo_r1mini_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/atoz/ros2_ws/build/omo_r1mini_bringup -- -j12 -l12
+Invoking command in '/home/atoz/ros2_ws/build/omo_r1mini_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/atoz/ros2_ws/build/omo_r1mini_bringup
+Invoked command in '/home/atoz/ros2_ws/build/omo_r1mini_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/atoz/ros2_ws/build/omo_r1mini_bringup

@@ -1,0 +1,15 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 100
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+    diff_drive_controller:
+      type: diff_drive_controller/DiffDriveController
+      left_wheel_names: ["joint_wheel_front"]
+      right_wheel_names: ["joint_wheel_rear"]
+      publish_rate: 50
+      base_frame_id: base_link
+      # 추가 설정 필요시...
+

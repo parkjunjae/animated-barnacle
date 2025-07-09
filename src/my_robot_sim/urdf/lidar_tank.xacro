@@ -1,0 +1,170 @@
+<?xml version="1.0"?>
+<robot name="lidar_tank" xmlns:xacro="http://ros.org/wiki/xacro">
+
+<transmission name="trans_joint_wheel_front">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="joint_wheel_front">
+    <hardwareInterface>hardware_interface/velocity_joint_interface</hardwareInterface>
+  </joint>
+  <actuator name="motor_wheel_front">
+    <hardwareInterface>hardware_interface/velocity_joint_interface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="trans_joint_wheel_rear">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="joint_wheel_rear">
+    <hardwareInterface>hardware_interface/velocity_joint_interface</hardwareInterface>
+  </joint>
+  <actuator name="motor_wheel_rear">
+    <hardwareInterface>hardware_interface/velocity_joint_interface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+  <!-- Base -->
+  <link name="base_link">
+    <visual>
+      <geometry><box size="0.6 0.4 0.2"/></geometry>
+      <origin xyz="0 0 0.1" rpy="0 0 0"/>
+    </visual>
+    <collision>
+      <geometry><box size="0.6 0.4 0.2"/></geometry>
+      <origin xyz="0 0 0.1" rpy="0 0 0"/>
+    </collision>
+    <inertial>
+      <mass value="10.0"/>
+      <inertia ixx="1" iyy="1" izz="1" ixy="0" ixz="0" iyz="0"/>
+    </inertial>
+  </link>
+
+  <!-- Front Wheel -->
+  <link name="wheel_front">
+    <visual>
+      <geometry><cylinder radius="0.05" length="0.02"/></geometry>
+      <origin xyz="0 0 0" rpy="1.5708 0 0"/>
+    </visual>
+    <collision>
+      <geometry><cylinder radius="0.05" length="0.02"/></geometry>
+      <origin xyz="0 0 0" rpy="1.5708 0 0"/>
+    </collision>
+    <inertial>
+      <mass value="0.5"/>
+      <inertia ixx="0.001" iyy="0.001" izz="0.001" ixy="0" ixz="0" iyz="0"/>
+    </inertial>
+  </link>
+
+  <joint name="joint_wheel_front" type="continuous">
+    <parent link="base_link"/>
+    <child link="wheel_front"/>
+    <origin xyz="0.3 0 0" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+    <dynamics friction="0.0" damping="0.0"/>
+    
+    <ros2_control>
+      <hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
+    </ros2_control>
+  </joint>
+  
+  <!-- Rear Wheel -->
+  <link name="wheel_rear">
+    <visual>
+      <geometry><cylinder radius="0.05" length="0.02"/></geometry>
+      <origin xyz="0 0 0" rpy="1.5708 0 0"/>
+    </visual>
+    <collision>
+      <geometry><cylinder radius="0.05" length="0.02"/></geometry>
+      <origin xyz="0 0 0" rpy="1.5708 0 0"/>
+    </collision>
+    <inertial>
+      <mass value="0.5"/>
+      <inertia ixx="0.001" iyy="0.001" izz="0.001" ixy="0" ixz="0" iyz="0"/>
+    </inertial>
+  </link>
+
+  <joint name="joint_wheel_rear" type="continuous">
+    <parent link="base_link"/>
+    <child link="wheel_rear"/>
+    <origin xyz="-0.3 0 0" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+    
+    <ros2_control>
+    <hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
+  </ros2_control>
+  </joint>
+
+  <!-- Velodyne LiDAR -->
+  <link name="velodyne_link">
+    <visual>
+      <geometry><cylinder radius="0.05" length="0.1"/></geometry>
+      <origin xyz="0 0 0.3" rpy="0 0 0"/>
+      <material name="gray"/>
+    </visual>
+  </link>
+
+  <joint name="velodyne_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="velodyne_link"/>
+    <origin xyz="0 0 0.25" rpy="0 0 0"/>
+  </joint>
+
+  <!-- Diff Drive Plugin -->
+  <gazebo>
+    <plugin name="diff_drive" filename="libgazebo_ros_diff_drive.so">
+      <ros>
+        <remapping>cmd_vel:=/cmd_vel</remapping>
+      </ros>
+      <left_joint>joint_wheel_front</left_joint>
+      <right_joint>joint_wheel_rear</right_joint>
+      <wheel_separation>0.6</wheel_separation>
+      <wheel_diameter>0.10</wheel_diameter>
+      <publish_odom>true</publish_odom>
+      <odom_topic>odom</odom_topic>
+      <odometry_frame>odom</odometry_frame>
+      <robot_base_frame>base_link</robot_base_frame>
+    </plugin>
+  </gazebo>
+
+  <!-- Velodyne LiDAR Sensor -->
+  <gazebo reference="velodyne_link">
+    <sensor type="ray" name="velodyne">
+      <pose>0 0 0.1 0 0 0</pose>
+      <update_rate>10</update_rate>
+      <ray>
+        <scan>
+          <horizontal>
+            <samples>360</samples>
+            <min_angle>-3.14</min_angle>
+            <max_angle>3.14</max_angle>
+          </horizontal>
+          <vertical>
+            <samples>16</samples>
+            <min_angle>-0.26</min_angle>
+            <max_angle>0.26</max_angle>
+          </vertical>
+        </scan>
+        <range>
+          <min>0.1</min>
+          <max>100.0</max>
+        </range>
+      </ray>
+      <plugin name="velodyne_plugin" filename="libgazebo_ros_ray_sensor.so">
+        <ros>
+          <remapping>points:=/velodyne_points</remapping>
+        </ros>
+        <topicName>/velodyne_points</topicName>
+        <frameName>velodyne_link</frameName>
+        <output_type>sensor_msgs/PointCloud2</output_type>
+      </plugin>
+    </sensor>
+  </gazebo>
+  <!-- control plugin -->
+  <gazebo>
+    <plugin name="gazebo_ros2_control" filename="libgazebo_ros2_control.so"/>
+  </gazebo>
+
+</robot>
+
+
+
